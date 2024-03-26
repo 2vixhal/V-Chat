@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>V-chat Realtime Node Socket.io Cat App</title>
+
+  <script defer src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+
+    <link rel="stylesheet" href="/style.css"> <!-- Update the path if necessary -->
+    <script defer src="/client.js"></script> 
+</head>
+
+<body>
+  <nav >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <!-- <img src="8162545.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top " style="color: white;"> -->
+        V-Chat
+      </a>
+    </div>
+  </nav>
+  <!-- <div class="warning">This is an anonymous server there will be no record of any messages or the person writing those messages</div> -->
+  <div class="container"></div>
+  <div class="send">
+    <form action="#" id="send-container">
+      <input type="text" name="messageInp" id="messageInp" placeholder="Send Message">
+      <button class="btn" type="submit"><img class="send-btn" src="send.png" alt="send"></button>
+    </form>
+  </div>
+</body>
+
+</html>
